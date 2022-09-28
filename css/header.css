@@ -1,0 +1,21 @@
+header{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.lincks-container {
+    display: flex;
+    gap: 32px;
+}
+
+.lincks-container a {
+     text-shadow: 2px 2px 2px #000;
+     padding: 6px;
+     transition: all 1s;
+}
+
+.lincks-container a:hover{
+    background-color: #E62721;
+}
+
